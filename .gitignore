@@ -9,6 +9,7 @@ manifest.mf
 build-impl.xml
 genfiles.properties
 private.properties
+private.xml
 project.properties
 project.xml
 
