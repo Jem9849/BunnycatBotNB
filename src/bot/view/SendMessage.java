@@ -25,9 +25,9 @@ public class SendMessage
 	{	
 		//buildEm.appendField(":thinking: Hmm :thinking:", appendContent, true);
 		
-		buildEm.withAuthorName("BunnyCatBot");
+            buildEm.withAuthorName("BunnyCatBot");
 		
-		buildEm.withColor(0, 255, 134);
+            buildEm.withColor(0, 255, 134);
 	    buildEm.withDescription(content);
 	    buildEm.withTitle(title);
 	    buildEm.withTimestamp(event.getMessage().getTimestamp());
